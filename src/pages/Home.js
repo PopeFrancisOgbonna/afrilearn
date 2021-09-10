@@ -8,7 +8,7 @@ import Images from "../util/img";
 const Home = () => {
 
   return (
-    <HomeDiv >
+    <HomeDiv className="container-fluid">
       <div className="row hero">
         <div className="title col-md-8">
           <h1>Africa's best-loved e-learning brand.</h1>
@@ -246,8 +246,6 @@ const HomeDiv = Styled.div`
     background-repeat: norepeat;
     background-size:cover;
     background-position: center;
-    width: 100vw;
-    border:2px solid red;
   }
   .title{
     padding:6% 15px;
@@ -299,7 +297,6 @@ const HomeDiv = Styled.div`
     margin: 2% auto;
     padding: 25px;
     width: 55%;
-    border: 1px solid red;
   }
   .j-right{
     margin: 3% 0 0 50%;
